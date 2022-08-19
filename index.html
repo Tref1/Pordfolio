@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220805171250">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__fix">
+					<div class="header__block">
+						<div class="header__logo logo">
+							<a href="" class="logo__title">HTML</a>
+							<a href="" class="logo__sub-text">CSS</a>
+						</div>
+						<div class="heder__burger burger">
+							<span></span>
+						</div>
+						<nav class="header__menu-burger menu-burger">
+							<ul class="menu-burger__list">
+								<li class="menu-burger__item"><a href="#" class="menu-burger__link">Головна</a></li>
+								<li class="menu-burger__item"><a href="#portfol" class="menu-burger__link">Портфоліо</a></li>
+								<li class="menu-burger__item"><a href="#technologies" class="menu-burger__link">Технології</a></li>
+								<li class="menu-burger__item"><a href="#contacts" class="menu-burger__link">Контакти</a></li>
+							</ul>
+						</nav>
+						<div class="header__menu menu">
+							<button type="button" class="menu__icon icon-menu"><span></span></button>
+							<nav class="menu__body">
+								<ul class="menu__list">
+									<li class="menu__item"><a href="#" class="menu__link">Головна</a></li>
+									<li class="menu__item"><a href="#portfol" class="menu__link">Портфоліо</a></li>
+									<li class="menu__item"><a href="#technologies" class="menu__link">Портфоліо</a></li>
+									<li class="menu__item"><a href="#contacts" class="menu__link">Контакти</a></li>
+								</ul>
+							</nav>
+						</div>
+						<div class="header__sub-text">
+							<div class="header__text">Верстка сайту</div>
+						</div>
+					</div>
+					<div class="header__sub-block">
+						<div data-spollers class="spollers">
+							<button type="button" data-spoller class="spollers__title">UK</button>
+							<!-- _icon-arrow-bottom -->
+							<div class="spollers__item">
+								<a href="http://vyacheslav-web.com/index-en.html" class="spollers__body">EN</a>
+							</div>
+						</div>
+						<div class="page__header">
+							<div class="page__action">
+								<button type="button" class="page__theme"></button>
+								<button type="button" class="page__reset"></button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<div class="page__container">
+				<div data-fullscreen class="page__block">
+					<div class="page__items items">
+						<div class="items__name">
+							<div class="items__sub-title">Привіт</div>
+							<div data-text="I’m Vyacheslav Didenko" class="items__title">
+								<!-- I’m Vyacheslav Didenko -->
+								I’m Vyacheslav Didenko
+							</div>
+							<div class="items__text">
+								Front End розробник / Займаюсь верстка сайту
+							</div>
+						</div>
+						<div class="items__button-contact">
+							<a href="#" class="items__button button" data-popup="#popup">Контакти</a>
+						</div>
+					</div>
+					<div class="page__item item">
+						<div class="item__html"></div>
+						<div class="item__css"></div>
+						<div class="item__js"></div>
+						<div class="item__bem"></div>
+						<div class="item__sass"></div>
+						<div class="item__image">
+							<img src="img/logo.svg" alt="logo">
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- <div class="page__down down">
+					<div class="down__one"></div>
+					<div class="down__two"></div>
+					<div class="down__three"></div>
+				</div> -->
+			<div class="header-loader">
+				<div class="loader-container">
+					<div class="loader-2"></div>
+				</div>
+			</div>
+			<div class="page__tabs-adaptive tabs-adaptive">
+				<div class="tabs-adaptive__container">
+					<div class="tabs-adaptive__items">
+						<div class="tabs-adaptive__title" id="technologies">Технології</div>
+						<div class="tabs-adaptive__text">Моя верстка адаптивна і легко інтегрується в будь-яку систему керування контентом:
+							WordPress, Joomla, Bitrix, PrestaShop, OpenCart і т.д.</div>
+					</div>
+					<div data-tabs class="tabs">
+						<nav data-tabs-titles class="tabs__navigation">
+							<button type="submit" class="tabs__title _tab-active _icon-laptop">Desktop</button>
+							<button type="submit" class="tabs__title _icon-tablet">Tablet</button>
+							<button type="submit" class="tabs__title _icon-mobile">Mobile</button>
+						</nav>
+						<div data-tabs-body class="tabs__content">
+							<div class="tabs__body">
+								<picture><source srcset="img/tabs/desctop.webp" type="image/webp"><img class="tabs-img-one" src="img/tabs/desctop.png" alt=""></picture>
+							</div>
+							<div class="tabs__body">
+								<picture><source srcset="img/tabs/desctop2.webp" type="image/webp"><img class="tabs-img-two" src="img/tabs/desctop2.png" alt=""></picture>
+							</div>
+							<div class="tabs__body">
+								<img src="img/tabs/desctop3.png	" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="page__occupation occupation">
+				<div class="occupation__container">
+					<div class="occupation__block">
+						<div class="occupation__items">
+							<div class="occupation__title">
+								<div class="occupation__sub-title">Рід занять</div>
+								<div class="occupation__text">- Верстка кроссбраузерна, валідна, адаптивна. Тільки чистий та зрозумілий код. - Верстаю Figma,
+									- Адаптивність, чуйність (responsive), гума - CSS3\JS анімація сайтів. - Професійне обслуговування, наповнення, підтримка сайтів та інтернет-магазинів.</div>
+							</div>
+							<div class="occupation__guarantee guarantee">
+								<div class="guarantee__title">Гарантія на верстку</div>
+								<div class="guarantee__text">Впродовж тижня після передачі архіву з готовою версткою я
+									безкоштовно і відразу виправляю свої помилки, які могли бути пропущені при прийомі роботи і помічені пізніше.
+								</div>
+							</div>
+							<div class="occupation__responsibility responsibility">
+								<ul class="responsibility__item">
+									<li class="responsibility__text"><span>Відповідальність</span></li>
+									<li class="responsibility__text _icon-angle-down">готовий приступити вже</li>
+									<li class="responsibility__text _icon-angle-down">завжди доводжу справу до кінця</li>
+									<li class="responsibility__text _icon-angle-down">не порушую термінів</li>
+									<li class="responsibility__text _icon-angle-down">даю консультації щодо макету</li>
+									<li class="responsibility__text _icon-angle-down">не беру передоплату</li>
+									<li class="responsibility__text _icon-angle-down">завжди на зв'язку</li>
+									<div class="of-block" id="portfol"></div>
+								</ul>
+							</div>
+						</div>
+						<div class="occupation__item item-occupation">
+							<div class="item-occupation__imega">
+								<div class="item-occupation__img">
+									<picture><source srcset="img/app1.webp" type="image/webp"><img src="img/app1.png" alt="app"></picture>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="portfolio">
+				<div class="portfolio__container">
+					<div class="portfolio__items items-portfolio">
+						<div class="portfolio__item">
+							<a href="#" class="portfolio__title">Портфоліо</a>
+						</div>
+						<div class="items-portfolio__block block-portfolio">
+							<div class="block-portfolio__items">
+								<div class="block-portfolio__content content-portfolio">
+									<a href="http://vyacheslav-web.com/Pordfolio/GoCorona/" target="_blank">
+										<div class="content-portfolio__overlay">
+											<p class="content-portfolio__title">Відкрити в новій вкладці</p>
+										</div>
+										<picture><source srcset="img/portfolio/01.webp" type="image/webp"><img class="content-portfolio__image" src="img/portfolio/01.jpg" alt=""></picture>
+										<div class="content-portfolio__details">
+										</div>
+									</a>
+								</div>
+								<div class="block-portfolio__content content-portfolio">
+									<a href="http://vyacheslav-web.com/Pordfolio/FarmVest/" target="_blank">
+										<div class="content-portfolio__overlay">
+											<p class="content-portfolio__title">Відкрити в новій вкладці</p>
+										</div>
+										<picture><source srcset="img/portfolio/02.webp" type="image/webp"><img class="content-portfolio__image" src="img/portfolio/02.jpg" alt=""></picture>
+										<div class="content-portfolio__details">
+										</div>
+									</a>
+								</div>
+								<div class="block-portfolio__content content-portfolio">
+									<a href="http://vyacheslav-web.com/Pordfolio/Rhythm" target="_blank">
+										<div class="content-portfolio__overlay">
+											<p class="content-portfolio__title">Відкрити в новій вкладці</p>
+										</div>
+										<picture><source srcset="img/portfolio/03.webp" type="image/webp"><img class="content-portfolio__image" src="img/portfolio/03.jpg" alt=""></picture>
+										<div class="content-portfolio__details">
+										</div>
+									</a>
+								</div>
+								<div class="block-portfolio__content content-portfolio">
+									<a href="http://vyacheslav-web.com/Pordfolio/Relvise" target="_blank">
+										<div class="content-portfolio__overlay">
+											<p class="content-portfolio__title">Відкрити в новій вкладці</p>
+										</div>
+										<picture><source srcset="img/portfolio/04.webp" type="image/webp"><img class="content-portfolio__image" src="img/portfolio/04.jpg" alt=""></picture>
+										<div class="content-portfolio__details">
+										</div>
+									</a>
+								</div>
+								<div class="block-portfolio__content content-portfolio">
+									<a href="http://vyacheslav-web.com/Pordfolio/Jessica" target="_blank">
+										<div class="content-portfolio__overlay">
+											<p class="content-portfolio__title">Відкрити в новій вкладці</p>
+										</div>
+										<picture><source srcset="img/portfolio/05.webp" type="image/webp"><img class="content-portfolio__image" src="img/portfolio/05.jpg" alt=""></picture>
+										<div class="content-portfolio__details">
+										</div>
+									</a>
+								</div>
+								<div class="block-portfolio__content content-portfolio">
+									<a href="http://vyacheslav-web.com/Pordfolio/Jadoo" target="_blank">
+										<div class="content-portfolio__overlay">
+											<p class="content-portfolio__title">Відкрити в новій вкладці</p>
+										</div>
+										<picture><source srcset="img/portfolio/06.webp" type="image/webp"><img class="content-portfolio__image" src="img/portfolio/06.jpg" alt=""></picture>
+										<div class="content-portfolio__details">
+										</div>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__sub-color" id="contacts"></div>
+			<div class="footer__container">
+				<div class="footer__block">
+					<div class="footer__social _one">
+						<a href="https://www.facebook.com/profile.php?id=100080794501293" class="footer__icon-facebook _icon-facebook"></a>
+						<a href="https://www.facebook.com/profile.php?id=100080794501293" class="facebook">facebook</a>
+					</div>
+					<div class="footer__social _two">
+						<a href="https://t.me/Vyacheslav_Serhiyovych" class="footer__icon-telegram _icon-telegram"></a>
+						<a href="https://t.me/Vyacheslav_Serhiyovych" class="telegram">telegram</a>
+					</div>
+					<div class="footer__social _three">
+						<a href="tel:+380664020752" class="footer__icon-phone _icon-phone"></a>
+						<a href="tel:+380664020752" class="phone ">+380 66 402 07 52</a>
+					</div>
+					<div class="footer__social _four">
+						<a href="mailto:vyacheslavs2022@gmail.com" class="footer__icon-envelope _icon-envelope"></a>
+						<a href="mailto:vyacheslavs2022@gmail.com" class="envelope">vyacheslavs2022@gmail.com</a>
+					</div>
+				</div>
+			</div>
+
+		</footer>
+	</div>
+	<div id="popup" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">Закрити</button>
+				<div class="popup__text">
+					<div class="footer__block">
+						<div class="footer__social _one">
+							<a href="https://www.facebook.com/profile.php?id=100080794501293" class="footer__icon-facebook _icon-facebook"></a>
+							<a href="https://www.facebook.com/profile.php?id=100080794501293" class="facebook">facebook</a>
+						</div>
+						<div class="footer__social _two">
+							<a href="https://t.me/Vyacheslav_Serhiyovych" class="footer__icon-telegram _icon-telegram"></a>
+							<a href="https://t.me/Vyacheslav_Serhiyovych" class="telegram">telegram</a>
+						</div>
+						<div class="footer__social _three">
+							<a href="tel:+380664020752" class="footer__icon-phone _icon-phone"></a>
+							<a href="tel:+380664020752" class="phone ">+380 66 402 07 52</a>
+						</div>
+						<div class="footer__social _four">
+							<a href="mailto:vyacheslavs2022@gmail.com" class="footer__icon-envelope _icon-envelope"></a>
+							<a href="mailto:vyacheslavs2022@gmail.com" class="envelope">vyacheslavs2022@gmail.com</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20220805171250"></script>
+</body>
+
+</html>
